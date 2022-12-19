@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>The Cloud Story</title>
+    <!------------->
+    <meta name="description" content="Our website is designed to introduce stories and tell stories with insights through words that children can easily hear and understand, and the design of the website wants to be cute, simple, and easy to understand. So that children will be able to understand easily about the website">
+    <meta name="keywords" content="อ่านนิทาน, อ่านนิทานก่อนนอน, Aesop's Fables, Aesops Fables, Folk Tale, Fairy Tale, Fable, Fables">
+    <meta name="author" content="Aesop's">
+    <link rel="shortcut icon" type="image/ico" href="./favicon.ico" />
+    <!------------->
+</head>
+
+<body>
+    <canvas class="snow" id="snow" width="1848" height="515"></canvas>
+    <header class="top center">
+        <div class="logo">
+            <img src="img/subLogoThecloud.png" alt="logo" />
+            <div class="logoname">
+                <h1>The cloud Story</h1>
+            </div>
+        </div>
+    </header>
+    <section class="wrapper">
+        <div class="tab">
+            <input type="radio" name="tab" id="tab1" checked="checked" />
+            <label for="tab1">Aesop's Fables</label>
+            <div class="content">
+                <div class="row">
+                    <div class="window">
+                        <div class="circle">01</div>
+                        <div class="storyname">The Wild Boar & The Fox</div>
+                        <div class="bottom-btn">
+                            <a href="TheWildBoar&TheFox.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">02</div>
+                        <div class="storyname">The Frogs & The Ox</div>
+                        <div class="bottom-btn">
+                            <a href="TheFrogs&TheOx.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">03</div>
+                        <div class="storyname">Belling the Cat</div>
+                        <div class="bottom-btn">
+                            <a href="BellingtheCat.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+
+                    <div class="window">
+                        <div class="circle">04</div>
+                        <div class="storyname">The Town Mouse & The Country Mouse</div>
+                        <div class="bottom-btn">
+                            <a href="TownMouse.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">05</div>
+                        <div class="storyname">The Fox & The Grapes</div>
+                        <div class="bottom-btn">
+                            <a href="TheFox&theGrapes.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">06</div>
+                        <div class="storyname">The Wolf & The Crane</div>
+                        <div class="bottom-btn">
+                            <a href="TheWolf&theCrane.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+
+                    <div class="window">
+                        <div class="circle">07</div>
+                        <div class="storyname">The Lion & The Mouse</div>
+                        <div class="bottom-btn">
+                            <a href="TheLion&theMouse.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">08</div>
+                        <div class="storyname">The Gnat & The Bull</div>
+                        <div class="bottom-btn">
+                            <a href="TheGnat&theBull.html" class="read-btn">READ</a>
+
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">09</div>
+                        <div class="storyname">The Plane Tree</div>
+                        <div class="bottom-btn">
+                            <a href="ThePlaneTree.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+
+                    <div class="window">
+                        <div class="circle">10</div>
+                        <div class="storyname">The Owl & The Grasshopper</div>
+                        <div class="bottom-btn">
+                            <a href="TheOwl&theGrasshopper.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">11</div>
+                        <div class="storyname">The Oak & The Reeds</div>
+                        <div class="bottom-btn">
+                            <a href="TheOak&theReeds.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">12</div>
+                        <div class="storyname">The Crow & The Pitcher</div>
+                        <div class="bottom-btn">
+                            <a href="TheCrow&thePitcher.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <input type="radio" name="tab" id="tab2" />
+            <label for="tab2">Folk Tale</label>
+            <div class="content">
+                <div class="row">
+                    <div class="window">
+                        <div class="circle">01</div>
+                        <div class="storyname">Dao Lookgai</div>
+                        <div class="bottom-btn">
+                            <a href="Dao Lookgai.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">02</div>
+                        <div class="storyname">The Monkey and the Fishermen</div>
+                        <div class="bottom-btn">
+                            <a href="The Monkey and the Fishermen.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">03</div>
+                        <div class="storyname">The Fox Without a Tail</div>
+                        <div class="bottom-btn">
+                            <a href="The Fox Without a Tail.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">04</div>
+                        <div class="storyname">The Lion in Love</div>
+                        <div class="bottom-btn">
+                            <a href="The Lion in Love.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">05</div>
+                        <div class="storyname">The Wood man and the Serpent</div>
+                        <div class="bottom-btn">
+                            <a href="The Wood man and the Serpent.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">06</div>
+                        <div class="storyname">The Dog in the Manger</div>
+                        <div class="bottom-btn">
+                            <a href="The Dog in the Manger.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">07</div>
+                        <div class="storyname">The Frog and the ox</div>
+                        <div class="bottom-btn">
+                            <a href="The Frog and the ox.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">08</div>
+                        <div class="storyname">Androcles</div>
+                        <div class="bottom-btn">
+                            <a href="Androcles.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">09</div>
+                        <div class="storyname">The Shepherd Boy</div>
+                        <div class="bottom-btn">
+                            <a href="The Shepherd Boy.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">10</div>
+                        <div class="storyname">The Fox and the Crow</div>
+                        <div class="bottom-btn">
+                            <a href="The Fox and the Crow.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">11</div>
+                        <div class="storyname">Wang the peddler</div>
+                        <div class="bottom-btn">
+                            <a href="Wang the peddler.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">12</div>
+                        <div class="storyname">The Despising King</div>
+                        <div class="bottom-btn">
+                            <a href="The Despising King.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <input type="radio" name="tab" id="tab3" />
+            <label for="tab3">Fairy Tale</label>
+            <div class="content">
+                <div class="row">
+                    <div class="window">
+                        <div class="circle">01</div>
+                        <div class="storyname">The Little Mermaid</div>
+                        <div class="bottom-btn">
+                            <a href="The-Little-Mermaid.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">02</div>
+                        <div class="storyname">Pinocchio</div>
+                        <div class="bottom-btn">
+                            <a href="Pinocchio.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">03</div>
+                        <div class="storyname">Jack and the beanstalk</div>
+                        <div class="bottom-btn">
+                            <a href="Jack-and-the-beanstalk.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">04</div>
+                        <div class="storyname">The Star-money</div>
+                        <div class="bottom-btn">
+                            <a href="The-star-money.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">05</div>
+                        <div class="storyname">The Stolen farthings</div>
+                        <div class="bottom-btn">
+                            <a href="The-stolen-farthings.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">06</div>
+                        <div class="storyname">Cinderella</div>
+                        <div class="bottom-btn">
+                            <a href="Cinderella.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">07</div>
+                        <div class="storyname">Rapunzel</div>
+                        <div class="bottom-btn">
+                            <a href="Rapunzel.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">08</div>
+                        <div class="storyname">Mother Hulda</div>
+                        <div class="bottom-btn">
+                            <a href="Mother Hulda.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">09</div>
+                        <div class="storyname">The six swans</div>
+                        <div class="bottom-btn">
+                            <a href="The six swans.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">10</div>
+                        <div class="storyname">The three languages</div>
+                        <div class="bottom-btn">
+                            <a href="The three languages.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">11</div>
+                        <div class="storyname">The rabbit's bride</div>
+                        <div class="bottom-btn">
+                            <a href="The rabbit's bride.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                    <div class="window">
+                        <div class="circle">12</div>
+                        <div class="storyname">The hare and the hedgehog</div>
+                        <div class="bottom-btn">
+                            <a href="The hare and the hedgehog.html" class="read-btn">READ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <img src="img/subLogoThecloud.png" alt="">
+            </div>
+            <div class="box">
+                <h3 style="font: size 16px;">PRESENTED BY</h3>
+                <h2 style="font: size 50px;">- The Cloud Story -</h2>
+            </div>
+            <div class="box">
+                <div class="btn-aboutus"><a href="Aboutus.html">About Us</a></div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        (function () {
+
+            var canvas, ctx;
+            var points = [];
+            var maxDist = 100;
+
+            function init() {
+                //Add on load scripts
+                canvas = document.getElementById("snow");
+                ctx = canvas.getContext("2d");
+                resizeCanvas();
+                pointFun();
+                setInterval(pointFun, 20);
+                window.addEventListener('resize', resizeCanvas, false);
+            }
+            //Particle constructor
+            function point() {
+                this.x = Math.random() * (canvas.width + maxDist) - (maxDist / 2);
+                this.y = Math.random() * (canvas.height + maxDist) - (maxDist / 2);
+                this.z = (Math.random() * 0.5) + 0.5;
+                this.vx = ((Math.random() * 2) - 0.5) * this.z;
+                this.vy = ((Math.random() * 1.5) + 1.5) * this.z;
+                this.fill = "rgba(255,255,255," + ((0.4 * Math.random()) + 0.5) + ")";
+                this.dia = ((Math.random() * 2.5) + 1.5) * this.z;
+                points.push(this);
+            }
+            //Point generator
+            function generatePoints(amount) {
+                var temp;
+                for (var i = 0; i < amount; i++) {
+                    temp = new point();
+                };
+                // console.log(points);
+            }
+            //Point drawer
+            function draw(obj) {
+                ctx.beginPath();
+                ctx.strokeStyle = "transparent";
+                ctx.fillStyle = obj.fill;
+                ctx.arc(obj.x, obj.y, obj.dia, 0, 2 * Math.PI);
+                ctx.closePath();
+                ctx.stroke();
+                ctx.fill();
+            }
+            //Updates point position values
+            function update(obj) {
+                obj.x += obj.vx;
+                obj.y += obj.vy;
+                if (obj.x > canvas.width + (maxDist / 2)) {
+                    obj.x = -(maxDist / 2);
+                }
+                else if (obj.xpos < -(maxDist / 2)) {
+                    obj.x = canvas.width + (maxDist / 2);
+                }
+                if (obj.y > canvas.height + (maxDist / 2)) {
+                    obj.y = -(maxDist / 2);
+                }
+                else if (obj.y < -(maxDist / 2)) {
+                    obj.y = canvas.height + (maxDist / 2);
+                }
+            }
+            //
+            function pointFun() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                for (var i = 0; i < points.length; i++) {
+                    draw(points[i]);
+                    update(points[i]);
+                };
+            }
+
+            function resizeCanvas() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+                points = [];
+                generatePoints(window.innerWidth / 3);
+                pointFun();
+            }
+
+            //Execute when DOM has loaded
+            document.addEventListener('DOMContentLoaded', init, false);
+        })();
+    </script>
+</body>
+
+</html>
